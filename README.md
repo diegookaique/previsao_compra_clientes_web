@@ -4,7 +4,15 @@
 
 Este projeto tem como objetivo analisar o comportamento dos clientes de uma campanha de marketing e desenvolver um modelo de **Machine Learning** capaz de prever a **intenção de compra online** dos clientes.
 
-A base utilizada foi **marketing_campaign.csv**, contendo informações demográficas, comportamentais e histórico de compras dos clientes.
+A base original utilizada foi:
+
+`marketing_campaign.csv`
+
+Após o processo de limpeza e preparação, foi gerada uma nova base analítica:
+
+`campaign_analytics_base.csv`
+
+Essa base contém as variáveis tratadas e prontas para análise e modelagem.
 
 ---
 
@@ -20,7 +28,7 @@ O dataset `marketing_campaign.csv` foi carregado e as colunas foram **renomeadas
 
 Foram identificados valores ausentes na coluna:
 
-- `renda_anual_da_familia`
+`renda_anual_da_familia`
 
 Para preservar a distribuição dos dados e evitar distorções, os valores faltantes foram preenchidos utilizando **a mediana da variável**.
 
@@ -257,8 +265,8 @@ Portanto, o Random Forest foi selecionado como o modelo final para previsão de 
 
 ---
 
-**Gostou da Análise?** Conecte-se para trocarmos experiências e ideias sobre projetos de dados!
+📎 **Projeto desenvolvido por:** Diego Kaique
 
-🔗 **Meu LinkedIn:** [https://www.linkedin.com/in/diego-kaique-9ba3697b]
+🔗 **LinkedIn:** [https://www.linkedin.com/in/diego-kaique-9ba3697b]
 
 📧 **Contato:** [kaique_0208@hotmail.com]
